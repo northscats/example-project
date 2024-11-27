@@ -49,13 +49,13 @@ journey
 # 4. Квадрант-граф приоритетов функционала
 ```mermaid
 quadrantChart
-    title Приоритеты разработки функционала
-    x-axis Priority (Приоритет) ↔
-    y-axis Complexity (Сложность) ↑
-    "Implement Immediately": [ ["Анализ рисков", 85, 95], ["Интеграция с API банка", 75, 85], ["Отчеты по скорингу", 70, 90] ]
-    "Needs Thorough Analysis": [ ["Обработка ошибок", 65, 60], ["Авторизация и безопасность", 55, 50] ]
-    "Plan for Near Future": [ ["История запросов", 45, 80], ["Чат поддержки", 40, 75] ]
-    "Might Be Dropped": [ ["E-mail уведомления", 20, 30], ["Рекомендации", 15, 25] ]
+    title Functional Development Priorities
+    x-axis Priority
+    y-axis Complexity
+    "Implement Immediately": [ ["Risk Analysis", 85, 95], ["API Integration", 75, 85], ["Scoring Reports", 70, 90] ]
+    "Needs Thorough Analysis": [ ["Error Handling", 65, 60], ["Authorization and Security", 55, 50] ]
+    "Plan for Near Future": [ ["Query History", 45, 80], ["Support Chat", 40, 75] ]
+    "Might Be Dropped": [ ["Email Notifications", 20, 30], ["Recommendations", 15, 25] ]
 
 ```
 # 4. Гит граф (Gitgraph)
