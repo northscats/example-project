@@ -74,24 +74,24 @@ gitGraph
     commit id: "Development of client interface"
     commit id: "Adding request handling"
     checkout main
-    merge client id: "Client integration"
+    merge client
 
     branch server
     checkout server
     commit id: "API implementation"
     commit id: "Database connection"
     checkout main
-    merge server id: "Server integration"
+    merge server
 
     commit id: "System testing"
-    tag "v1.0.0" 
+    tag: "v1.0.0"
 
     branch improvements
     checkout improvements
     commit id: "Log improvement"
     checkout main
-    merge improvements id: "Release v1.1"
-    tag "v1.1.0"
+    merge improvements
+    tag: "v1.1.0"
 
 
 ```
