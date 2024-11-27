@@ -68,29 +68,29 @@ scatterChart
 # 4. Гит граф (Gitgraph)
 ```mermaid
 gitGraph
-    commit id: "Инициализация проекта"
-    branch клиент
-    checkout клиент
-    commit id: "Разработка клиентского интерфейса"
-    commit id: "Добавление обработки запросов"
+    commit id: "Initialization of project"
+    branch client
+    checkout client
+    commit id: "Development of client interface"
+    commit id: "Adding request handling"
     checkout main
-    merge клиент id: "Интеграция клиента"
+    merge client id: "Client integration"
 
-    branch сервер
-    checkout сервер
-    commit id: "Реализация API"
-    commit id: "Подключение базы данных"
+    branch server
+    checkout server
+    commit id: "API implementation"
+    commit id: "Database connection"
     checkout main
-    merge сервер id: "Интеграция сервера"
+    merge server id: "Server integration"
 
-    commit id: "Тестирование системы"
+    commit id: "System testing"
     tag "v1.0.0" 
 
-    branch улучшения
-    checkout улучшения
-    commit id: "Улучшение логирования"
+    branch improvements
+    checkout improvements
+    commit id: "Log improvement"
     checkout main
-    merge улучшения id: "Релиз v1.1"
+    merge improvements id: "Release v1.1"
     tag "v1.1.0"
 
 
