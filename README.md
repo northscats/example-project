@@ -68,6 +68,7 @@ scatterChart
 # 4. Гит граф (Gitgraph)
 ```mermaid
 ```mermaid
+
 gitGraph
     commit "Initialization of project"
     branch client
@@ -85,12 +86,11 @@ gitGraph
     merge server
 
     commit "System testing"
-    tag "v1.0.0"
+ 
 
     branch improvements
     checkout improvements
     commit "Log improvement"
     checkout main
     merge improvements
-    tag "v1.1.0"
 ```
